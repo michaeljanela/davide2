@@ -1,0 +1,33 @@
+.carousel {
+    background-color: violet;
+    
+
+    .image {
+        background-color: black;
+        height: calc(100vh - 80px);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .text{
+            position: absolute;
+            top: 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            height: calc(100vh - 80px);
+            font-weight: 700;
+            color: var(--whiteColor);
+            
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            
+        }
+        
+    }
+    
+}
